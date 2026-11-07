@@ -1,0 +1,4 @@
+# Staged by scripts/bundle-engine.sh at bundle time: ntfs-3g binary
+# built from pinned source. Empty until the maintainer runs that script;
+# BackendManager treats an empty dir as "no bundled engine" and falls
+# back to system backends (honestly reported in the UI).

@@ -1,0 +1,4 @@
+/tmp/ntfsbridge-engine-8sGeCv/destroot/tmp/ntfsbridge-engine-8sGeCv/install/bin/ntfs-3g:
+	@rpath/libfuse-t.dylib (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)
+	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 5027.1.8)

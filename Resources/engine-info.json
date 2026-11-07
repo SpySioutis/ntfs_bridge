@@ -1,0 +1,13 @@
+{
+  "engine": "ntfs-3g",
+  "version": "2026.9.28",
+  "source_upstream": "https://github.com/tuxera/ntfs-3g",
+  "source_tag": "2026.9.28",
+  "source_revision": "7f0f841fc52cf719106c5c93bafe465004e36816",
+  "reported_version": "2026.9.28 external FUSE 29 (matches pin)",
+  "cve_state": "Includes upstream 2026.7.7 heap-overflow fixes (postdates them).",
+  "build": "configure --prefix=<staging> --disable-library --disable-dependency-tracking --with-fuse=external, CPPFLAGS=-D_FILE_OFFSET_BITS=64, with script-provided fuse.pc alias (FUSE-T's fuse-2.9 API); make install DESTDIR=<staging>",
+  "linkage": "statically linked libntfs-3g; dynamic: @rpath/libfuse-t.dylib (RPATH /usr/local/lib via fuse-t.pc link flags) + system libs only — see engine-linkage.txt",
+  "license": "GPLv2 (see Resources/licenses/ntfs-3g-COPYING)",
+  "bundled_at": "2026-11-07T13:43:25Z"
+}

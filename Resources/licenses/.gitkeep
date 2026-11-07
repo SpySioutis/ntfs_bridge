@@ -1,0 +1,5 @@
+# GPLv2 license text (ntfs-3g COPYING) is copied here by
+# scripts/bundle-engine.sh from the exact pinned source tree.
+# It must be present in every distributed bundle — see
+# THIRD_PARTY_LICENSES.md. Never ship a bundle with this dir empty
+# alongside a binary in Resources/bin/.
